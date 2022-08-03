@@ -21,7 +21,7 @@ int main()
 	{
 		printf("%d\t",a[i]);
 	}
-	printf("total comparision is:%d",com);
+	printf("\ntotal comparision is:%d",com);
 	printf("\ntotal swap:%d",swap);
 	return 0;
 }
@@ -31,13 +31,7 @@ void bubble(int a[],int n)
 	
 	for(i=0;i<n;i++)
 	{
-		a[0]= min;
-		if(a[0]<a[i])
-		{
-			i++;
-		}
-		
-     else
+
 		for(j=0;j<n-i-1;j++)
 		{
 			com++;

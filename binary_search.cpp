@@ -18,14 +18,14 @@ int main()
 	while(lb<ub&&f==0)
 	{
 		mid=(lb+ub)/2;
-		if(mid==key)
+		if(a[mid]==key)
 		{
 		   f=1;
 		   printf("number is found at position  %d",mid+1);	
 		}
 		else
 		{
-			if(mid>key)
+			if(a[mid]>key)
 			{
 				ub=mid-1;
 			}
