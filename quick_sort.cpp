@@ -20,7 +20,7 @@ int main()
 	{
 		printf("%d\t",a[i]);
 	}
-	printf("the number of comparision is:%d",com);
+	printf("\nthe number of comparision is:%d",com);
 	return 0;
 }
 void quicksort(int a[],int f ,int l)

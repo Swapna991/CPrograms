@@ -19,7 +19,7 @@ int main()
 	{
 		printf("%d\t",a[i]);
 	}
-	printf("total comparison:%d",com);
+	printf("\ntotal comparison:%d",com);
 	return 0;
 }
 void selection(int a[], int n)
